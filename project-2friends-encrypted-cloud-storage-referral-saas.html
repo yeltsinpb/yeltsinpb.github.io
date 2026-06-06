@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2friends · Encrypted Cloud Storage & Referral SaaS — Yeltsin Batiancila</title>
+<meta name="description" content="Subscription SaaS combining encrypted cloud storage (Briefcase) with a 12-level cashback referral network.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="aurora">
+  <div class="aurora__blob aurora__blob--1"></div>
+  <div class="aurora__blob aurora__blob--2"></div>
+  <div class="aurora__blob aurora__blob--3"></div>
+</div>
+<header class="site-header">
+  <a href="index.html" class="logo"><span class="logo__mark">✦</span><span class="logo__text">Yeltsin Batiancila</span></a>
+  <nav class="nav">
+    <a href="index.html" class="nav__link"><span>01</span> Home</a>
+    <a href="projects.html" class="nav__link active"><span>02</span> Work</a>
+    <a href="contact.html" class="nav__link"><span>03</span> Contact</a>
+  </nav>
+</header>
+<main>
+<article class="project-detail">
+  <a href="projects.html" class="back-link">← Back to all work</a>
+  <header class="project-detail__head">
+    <h1 class="project-detail__title">2friends · Encrypted Cloud Storage & Referral SaaS</h1>
+    <p class="project-detail__summary">Subscription SaaS combining encrypted cloud storage (Briefcase) with a 12-level cashback referral network.</p>
+  </header>
+  <div class="project-detail__cover"><img src="uploads/ffda68f044e36686.png" alt="2friends · Encrypted Cloud Storage & Referral SaaS"></div>
+  <div class="project-detail__grid">
+    <div class="project-detail__body">
+      <h2>About</h2>
+      <p>A privacy-focused cloud storage product paired with a multi-level cashback rewards system. The Briefcase product delivers 1TB of encrypted cloud storage across up to 10 devices, with real-time mobile photo and video sync, automatic backup with 30 versions of file history, and large-file sharing via secure links.</p><p>The referral side is where things get interesting: a 12-level cashback engine where users earn from their network of referred friends. At level 3 the cashback equals the product cost, meaning members can effectively use Briefcase for free, and continue earning from the remaining 9 levels. I built the network ledger, payout logic, and reporting interfaces to track this entire structure transparently.</p><p>The stack runs on UK data centers with ISO 27001 certification and full GDPR compliance. Pricing handles VAT logic based on country of residence, and the joining flow integrates with Belgian trade-practice regulations governing the rewards program.</p>
+    </div>
+    <aside class="project-detail__meta">
+      <div class="meta-block">
+        <h3>Stack</h3>
+        <div class="meta-tags"><span>Laravel</span><span>MySQL</span><span>Stripe</span><span>Multi-level cashback engine</span><span>GDPR</span></div>
+      </div>
+      <div class="meta-block"><h3>Live</h3><a href="https://2friends.biz" target="_blank" rel="noopener">Visit project ↗</a></div>
+      <div class='meta-block'><h3>Completed</h3><p>2025-06</p></div>
+    </aside>
+  </div>
+  
+    <section class="gallery-section">
+        <div class="gallery-section__head">
+            <span class="gallery-section__label">// gallery</span>
+            <h2 class="gallery-section__title">Visuals</h2>
+            <p class="gallery-section__count">2 images · click to expand</p>
+        </div>
+        <div class="gallery-grid" id="projectGallery"><button type="button" class="gallery-grid__item" data-index="0"
+        data-src="uploads/d45400288d5998f0.png" data-caption="" style="--i:0">
+        <img src="uploads/d45400288d5998f0.png" alt="" loading="lazy">
+        <span class="gallery-grid__hover"><span class="gallery-grid__icon">⤢</span></span>
+    </button><button type="button" class="gallery-grid__item" data-index="1"
+        data-src="uploads/c2cc16de1a57356a.png" data-caption="" style="--i:1">
+        <img src="uploads/c2cc16de1a57356a.png" alt="" loading="lazy">
+        <span class="gallery-grid__hover"><span class="gallery-grid__icon">⤢</span></span>
+    </button></div>
+    </section>
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+        <div class="lightbox__backdrop"></div>
+        <div class="lightbox__frame">
+            <div class="lightbox__chrome lightbox__chrome--top">
+                <span class="lightbox__pos" id="lbPos">01 / 02</span>
+                <button type="button" class="lightbox__btn lightbox__btn--close" id="lbClose" aria-label="Close">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M6 18L18 6"/></svg>
+                </button>
+            </div>
+            <div class="lightbox__stage">
+                <button type="button" class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous image">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <div class="lightbox__imgwrap">
+                    <div class="lightbox__corner lightbox__corner--tl"></div>
+                    <div class="lightbox__corner lightbox__corner--tr"></div>
+                    <div class="lightbox__corner lightbox__corner--bl"></div>
+                    <div class="lightbox__corner lightbox__corner--br"></div>
+                    <img id="lbImg" src="" alt="">
+                </div>
+                <button type="button" class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next image">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg>
+                </button>
+            </div>
+            <div class="lightbox__chrome lightbox__chrome--bottom">
+                <div class="lightbox__thumbs" id="lbThumbs"><button type="button" class="lightbox__thumb" data-index="0">
+        <img src="uploads/d45400288d5998f0.png" alt=""></button><button type="button" class="lightbox__thumb" data-index="1">
+        <img src="uploads/c2cc16de1a57356a.png" alt=""></button></div>
+            </div>
+        </div>
+    </div>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="footer__line"><span>© 2026 Yeltsin Batiancila</span><span class="footer__dot">·</span><span>Davao, Philippines</span></div>
+  <div class="footer__socials">
+    <a href="https://github.com/yeltsinpb" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/yeltsin-batiancila-2539b7b4/" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+</footer>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

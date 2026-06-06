@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRINTOS · Multi-tenant Printing Business Suite — Yeltsin Batiancila</title>
+<meta name="description" content="Built solo from the ground up: multi-tenant SaaS for managing printing businesses end to end.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="aurora">
+  <div class="aurora__blob aurora__blob--1"></div>
+  <div class="aurora__blob aurora__blob--2"></div>
+  <div class="aurora__blob aurora__blob--3"></div>
+</div>
+<header class="site-header">
+  <a href="index.html" class="logo"><span class="logo__mark">✦</span><span class="logo__text">Yeltsin Batiancila</span></a>
+  <nav class="nav">
+    <a href="index.html" class="nav__link"><span>01</span> Home</a>
+    <a href="projects.html" class="nav__link active"><span>02</span> Work</a>
+    <a href="contact.html" class="nav__link"><span>03</span> Contact</a>
+  </nav>
+</header>
+<main>
+<article class="project-detail">
+  <a href="projects.html" class="back-link">← Back to all work</a>
+  <header class="project-detail__head">
+    <h1 class="project-detail__title">PRINTOS · Multi-tenant Printing Business Suite</h1>
+    <p class="project-detail__summary">Built solo from the ground up: multi-tenant SaaS for managing printing businesses end to end.</p>
+  </header>
+  <div class="project-detail__cover"><img src="uploads/78dbbc5e29b53294.png" alt="PRINTOS · Multi-tenant Printing Business Suite"></div>
+  <div class="project-detail__grid">
+    <div class="project-detail__body">
+      <h2>About</h2>
+      <p>Designed and built entirely on my own, from database schema through API to UI. PRINTOS is a multi-tenant Laravel SaaS that handles every aspect of running a printing business: order management, product catalog, materials tracking, real-time inventory, production scheduling, and analytics dashboards.</p><p>The multi-tenancy architecture allows each printing shop to have isolated data with their own users, branding, and configuration while sharing the underlying infrastructure. Reports include profit-per-job analytics, materials usage forecasting, and customer lifetime value tracking.</p>
+    </div>
+    <aside class="project-detail__meta">
+      <div class="meta-block">
+        <h3>Stack</h3>
+        <div class="meta-tags"><span>Laravel</span><span>Filament</span><span>MySQL</span><span>Multi-tenancy</span><span>Forge</span><span>AWS</span></div>
+      </div>
+      
+      <div class='meta-block'><h3>Completed</h3><p>2025-09</p></div>
+    </aside>
+  </div>
+  
+    <section class="gallery-section">
+        <div class="gallery-section__head">
+            <span class="gallery-section__label">// gallery</span>
+            <h2 class="gallery-section__title">Visuals</h2>
+            <p class="gallery-section__count">3 images · click to expand</p>
+        </div>
+        <div class="gallery-grid" id="projectGallery"><button type="button" class="gallery-grid__item" data-index="0"
+        data-src="uploads/51483ad87d0439a3.png" data-caption="" style="--i:0">
+        <img src="uploads/51483ad87d0439a3.png" alt="" loading="lazy">
+        <span class="gallery-grid__hover"><span class="gallery-grid__icon">⤢</span></span>
+    </button><button type="button" class="gallery-grid__item" data-index="1"
+        data-src="uploads/6ad414aaa9498e40.png" data-caption="" style="--i:1">
+        <img src="uploads/6ad414aaa9498e40.png" alt="" loading="lazy">
+        <span class="gallery-grid__hover"><span class="gallery-grid__icon">⤢</span></span>
+    </button><button type="button" class="gallery-grid__item" data-index="2"
+        data-src="uploads/92e6832cbc872785.png" data-caption="" style="--i:2">
+        <img src="uploads/92e6832cbc872785.png" alt="" loading="lazy">
+        <span class="gallery-grid__hover"><span class="gallery-grid__icon">⤢</span></span>
+    </button></div>
+    </section>
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+        <div class="lightbox__backdrop"></div>
+        <div class="lightbox__frame">
+            <div class="lightbox__chrome lightbox__chrome--top">
+                <span class="lightbox__pos" id="lbPos">01 / 03</span>
+                <button type="button" class="lightbox__btn lightbox__btn--close" id="lbClose" aria-label="Close">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M6 18L18 6"/></svg>
+                </button>
+            </div>
+            <div class="lightbox__stage">
+                <button type="button" class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous image">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <div class="lightbox__imgwrap">
+                    <div class="lightbox__corner lightbox__corner--tl"></div>
+                    <div class="lightbox__corner lightbox__corner--tr"></div>
+                    <div class="lightbox__corner lightbox__corner--bl"></div>
+                    <div class="lightbox__corner lightbox__corner--br"></div>
+                    <img id="lbImg" src="" alt="">
+                </div>
+                <button type="button" class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next image">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg>
+                </button>
+            </div>
+            <div class="lightbox__chrome lightbox__chrome--bottom">
+                <div class="lightbox__thumbs" id="lbThumbs"><button type="button" class="lightbox__thumb" data-index="0">
+        <img src="uploads/51483ad87d0439a3.png" alt=""></button><button type="button" class="lightbox__thumb" data-index="1">
+        <img src="uploads/6ad414aaa9498e40.png" alt=""></button><button type="button" class="lightbox__thumb" data-index="2">
+        <img src="uploads/92e6832cbc872785.png" alt=""></button></div>
+            </div>
+        </div>
+    </div>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="footer__line"><span>© 2026 Yeltsin Batiancila</span><span class="footer__dot">·</span><span>Davao, Philippines</span></div>
+  <div class="footer__socials">
+    <a href="https://github.com/yeltsinpb" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/yeltsin-batiancila-2539b7b4/" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+</footer>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
