@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yeltsin Batiancila — Full Stack Developer</title>
+<meta name="description" content="Full Stack Developer · Laravel · PHP · Vue · React">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="aurora">
+  <div class="aurora__blob aurora__blob--1"></div>
+  <div class="aurora__blob aurora__blob--2"></div>
+  <div class="aurora__blob aurora__blob--3"></div>
+</div>
+
+<header class="site-header">
+  <a href="index.html" class="logo">
+    <span class="logo__mark">✦</span>
+    <span class="logo__text">Yeltsin Batiancila</span>
+  </a>
+  <nav class="nav">
+    <a href="index.html" class="nav__link active"><span>01</span> Home</a>
+    <a href="projects.html" class="nav__link"><span>02</span> Work</a>
+    <a href="contact.html" class="nav__link"><span>03</span> Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__layout">
+      <div class="hero__main">
+        <div class="hero__meta">
+          <span class="pill">★ Available for freelance work</span>
+        </div>
+        <h1 class="hero__title">
+          <span class="hero__line hero__typeline" style="--d:0ms"
+                data-type-em="Hello,"
+                data-type-rest=" I'm Yeltsin">
+            <span class="hero__type-em"><em>Hello,</em></span><span class="hero__type-rest"> I'm Yeltsin</span><span class="hero__caret" aria-hidden="true"></span>
+          </span>
+          <span class="hero__line hero__line--accent" style="--d:120ms">Full Stack Developer · Laravel · PHP · Vue · React.</span>
+        </h1>
+        <div class="hero__cluster">
+          <div class="hero__bio" style="--d:240ms">
+            Full Stack Developer with focused experience in Laravel, PHP, and database engineering. I build scalable RESTful APIs and complex multi-tenant SaaS platforms, with a strong eye for performance and clean architecture. My work spans SaaS, e-commerce, SEO tooling, government systems, and quality control platforms, covering everything from backend architecture and payment integrations to polished frontends built with Vue, React, and Filament. I care about shipping code that holds up under real production load, not just code that passes a demo.
+          </div>
+        </div>
+        <a href="projects.html" class="cta" style="--d:480ms">
+          <span>See selected work</span>
+          <span class="cta__arrow">→</span>
+        </a>
+      </div>
+
+      <div class="hero__terminal" aria-hidden="true">
+        <div class="terminal" id="heroTerminal">
+          <div class="terminal__bar">
+            <span class="terminal__dots">
+              <span class="terminal__dot terminal__dot--red"></span>
+              <span class="terminal__dot terminal__dot--yellow"></span>
+              <span class="terminal__dot terminal__dot--green"></span>
+            </span>
+            <span class="terminal__title">~/yeltsin</span>
+          </div>
+          <div class="terminal__body" id="heroTerminalBody"></div>
+        </div>
+        <div class="hero__sigil" style="--d:360ms">
+          <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="sigil">
+            <defs>
+              <linearGradient id="sigil-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#ffb3d9"/>
+                <stop offset="50%" stop-color="#c084fc"/>
+                <stop offset="100%" stop-color="#67e8f9"/>
+              </linearGradient>
+            </defs>
+            <circle cx="100" cy="100" r="88" stroke="url(#sigil-grad)" stroke-width="0.5" opacity="0.4"/>
+            <circle cx="100" cy="100" r="70" stroke="url(#sigil-grad)" stroke-width="0.5" opacity="0.6"/>
+            <circle cx="100" cy="100" r="50" stroke="url(#sigil-grad)" stroke-width="1"/>
+            <path d="M100 30 L100 170 M30 100 L170 100 M50 50 L150 150 M150 50 L50 150" stroke="url(#sigil-grad)" stroke-width="0.5" opacity="0.5"/>
+            <circle cx="100" cy="100" r="4" fill="url(#sigil-grad)"/>
+            <text x="100" y="20" text-anchor="middle" fill="currentColor" font-family="JetBrains Mono" font-size="6" opacity="0.6">N · 14.07°</text>
+            <text x="100" y="190" text-anchor="middle" fill="currentColor" font-family="JetBrains Mono" font-size="6" opacity="0.6">S · 121.85°</text>
+          </svg>
+        </div>
+        <span class="hero__orb hero__orb--1">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__orb-svg">
+            <circle cx="50" cy="50" r="46" stroke="url(#sigil-grad)" stroke-width="1" opacity="0.6"/>
+            <circle cx="50" cy="50" r="30" stroke="url(#sigil-grad)" stroke-width="0.75" opacity="0.4"/>
+            <path d="M50 4 L50 96 M4 50 L96 50" stroke="url(#sigil-grad)" stroke-width="0.75" opacity="0.45"/>
+            <circle cx="50" cy="50" r="2.5" fill="url(#sigil-grad)"/>
+          </svg>
+        </span>
+        <span class="hero__orb hero__orb--2">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__orb-svg">
+            <circle cx="50" cy="50" r="46" stroke="url(#sigil-grad)" stroke-width="1.5" opacity="0.6"/>
+            <path d="M50 4 L50 96 M4 50 L96 50 M18 18 L82 82 M82 18 L18 82" stroke="url(#sigil-grad)" stroke-width="1" opacity="0.4"/>
+            <circle cx="50" cy="50" r="3.5" fill="url(#sigil-grad)"/>
+          </svg>
+        </span>
+        <span class="hero__orb hero__orb--3"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section">
+    <div class="section__head">
+      <span class="section__index">— 02</span>
+      <h2 class="section__title">Tools of the <em>trade</em></h2>
+      <p class="section__sub">A non-exhaustive list of what I reach for when the brief lands on my desk.</p>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="section">
+    <div class="section__head">
+      <span class="section__index">— 03</span>
+      <h2 class="section__title">Selected <em>work</em></h2>
+      <p class="section__sub">Recent projects, picked because I'm proud of them.</p>
+    </div>
+    <div class="carousel" id="projectCarousel">
+      <div class="carousel__viewport">
+        <div class="carousel__track" id="carouselTrack"></div>
+      </div>
+      <button class="carousel__nav carousel__nav--prev" id="carouselPrev" type="button" aria-label="Previous project">←</button>
+      <button class="carousel__nav carousel__nav--next" id="carouselNext" type="button" aria-label="Next project">→</button>
+      <div class="carousel__dots" id="carouselDots" role="tablist" aria-label="Project navigation"></div>
+    </div>
+    <div class="see-all">
+      <a href="projects.html" class="cta cta--ghost">
+        <span>All projects</span>
+        <span class="cta__arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--cta">
+    <h2 class="cta-block">
+      <em>Have a project</em> that needs a developer who ships?
+    </h2>
+    <a href="contact.html" class="cta cta--large">
+      <span>Let's talk</span>
+      <span class="cta__arrow">→</span>
+    </a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer__line">
+    <span>© 2026 Yeltsin Batiancila</span>
+    <span class="footer__dot">·</span>
+    <span>Davao, Philippines</span>
+  </div>
+  <div class="footer__socials">
+    <a href="https://github.com/yeltsinpb" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/yeltsin-batiancila-2539b7b4/" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+</footer>
+
+<script>
+// ── Skills data ──────────────────────────────────────────
+const SKILLS = [
+  { name: 'Laravel', category: 'Frameworks', proficiency: 95 },
+  { name: 'Filament', category: 'Frameworks', proficiency: 90 },
+  { name: 'Apiato', category: 'Frameworks', proficiency: 88 },
+  { name: 'Vue.js', category: 'Frameworks', proficiency: 85 },
+  { name: 'React', category: 'Frameworks', proficiency: 82 },
+  { name: 'PHP', category: 'Languages', proficiency: 95 },
+  { name: 'JavaScript', category: 'Languages', proficiency: 85 },
+  { name: 'HTML', category: 'Languages', proficiency: 95 },
+  { name: 'CSS', category: 'Languages', proficiency: 90 },
+  { name: 'jQuery', category: 'Languages', proficiency: 88 },
+  { name: 'Ajax', category: 'Languages', proficiency: 85 },
+  { name: 'MySQL', category: 'Databases', proficiency: 92 },
+  { name: 'PostgreSQL', category: 'Databases', proficiency: 85 },
+  { name: 'Docker', category: 'DevOps', proficiency: 78 },
+  { name: 'AWS', category: 'DevOps', proficiency: 80 },
+  { name: 'Laravel Forge', category: 'DevOps', proficiency: 88 },
+  { name: 'Git', category: 'Tools', proficiency: 92 },
+  { name: 'Jira', category: 'Tools', proficiency: 85 },
+  { name: 'Claude (AI)', category: 'Tools', proficiency: 90 },
+  { name: 'Custom REST APIs', category: 'Specialty', proficiency: 95 },
+  { name: 'Payment Gateways', category: 'Specialty', proficiency: 88 },
+  { name: 'Multi-tenant SaaS', category: 'Specialty', proficiency: 90 },
+  { name: 'Subscription Billing', category: 'Specialty', proficiency: 88 },
+];
+
+// ── Projects data ─────────────────────────────────────────
+const PROJECTS = [
+  { id: 1, slug: 'cannabrands-cannabis-saas-platform', title: 'Cannabrands · Cannabis SaaS Platform', summary: 'Wholesale and retail SaaS platform for the cannabis industry with full CRM, inventory, and a dual-side marketplace.', tech_stack: 'Laravel, Filament, Vue, MySQL, REST APIs', live_url: 'https://cannabrands.app', cover_image: 'uploads/47c83a211dd97e51.png', featured: true },
+  { id: 2, slug: 'printos-multi-tenant-printing-business-suite', title: 'PRINTOS · Multi-tenant Printing Business Suite', summary: 'Built solo from the ground up: multi-tenant SaaS for managing printing businesses end to end.', tech_stack: 'Laravel, Filament, MySQL, Multi-tenancy, Forge, AWS', live_url: null, cover_image: 'uploads/78dbbc5e29b53294.png', featured: true },
+  { id: 3, slug: '2friends-encrypted-cloud-storage-referral-saas', title: '2friends · Encrypted Cloud Storage & Referral SaaS', summary: 'Subscription SaaS combining encrypted cloud storage (Briefcase) with a 12-level cashback referral network.', tech_stack: 'Laravel, MySQL, Stripe, Multi-level cashback engine, GDPR', live_url: 'https://2friends.biz', cover_image: 'uploads/ffda68f044e36686.png', featured: true },
+  { id: 4, slug: 'seodata-io-seo-api-web-app', title: 'SEOData.io · SEO API & Web App', summary: 'SEO platform aggregating multiple external APIs with credit-based subscriptions and full admin control.', tech_stack: 'Apiato, Laravel, Vue, Stripe, External APIs', live_url: 'https://seodata.io', cover_image: 'uploads/775c1040f892e70c.png', featured: true },
+];
+
+// ── Render skills ─────────────────────────────────────────
+(function renderSkills() {
+  const grid = document.getElementById('skillsGrid');
+  if (!grid) return;
+  const groups = {};
+  SKILLS.forEach(s => {
+    if (!groups[s.category]) groups[s.category] = [];
+    groups[s.category].push(s);
+  });
+  Object.entries(groups).forEach(([cat, skills]) => {
+    const card = document.createElement('div');
+    card.className = 'skills-card';
+    card.innerHTML = `<h3 class="skills-card__cat">${cat}</h3><ul class="skills-list">${
+      skills.map(s => `<li class="skill" style="--p:${s.proficiency}%">
+        <div class="skill__head">
+          <span class="skill__name">${s.name}</span>
+          <span class="skill__pct">${s.proficiency}</span>
+        </div>
+        <div class="skill__bar"><div class="skill__fill"></div></div>
+      </li>`).join('')
+    }</ul>`;
+    grid.appendChild(card);
+  });
+})();
+
+// ── Render carousel ───────────────────────────────────────
+(function renderCarousel() {
+  const track = document.getElementById('carouselTrack');
+  const dotsEl = document.getElementById('carouselDots');
+  if (!track) return;
+  PROJECTS.forEach((p, i) => {
+    const tags = p.tech_stack.split(',').slice(0, 4);
+    const article = document.createElement('article');
+    article.className = 'pcard';
+    article.setAttribute('data-index', i);
+    article.style.setProperty('--i', i);
+    article.innerHTML = `<a class="pcard__link" href="project-${p.slug}.html">
+      <div class="pcard__frame">
+        <div class="pcard__chrome">
+          <span class="pcard__dot"></span><span class="pcard__dot"></span><span class="pcard__dot"></span>
+          <span class="pcard__url">${p.slug}.dev</span>
+        </div>
+        <div class="pcard__shot">
+          ${p.cover_image
+            ? `<img src="${p.cover_image}" alt="${p.title}" loading="lazy">`
+            : `<div class="pcard__placeholder" aria-hidden="true"><span class="pcard__placeholder-glyph">${p.title[0].toUpperCase()}</span><span class="pcard__placeholder-label">${p.title}</span></div>`
+          }
+        </div>
+      </div>
+      <div class="pcard__meta">
+        <h3 class="pcard__title">${p.title}</h3>
+        <p class="pcard__summary">${p.summary}</p>
+        <div class="pcard__tags">${tags.map(t => `<span>${t.trim()}</span>`).join('')}</div>
+        <span class="pcard__cta">View project <span class="pcard__arrow">→</span></span>
+      </div>
+    </a>`;
+    track.appendChild(article);
+    const dot = document.createElement('button');
+    dot.className = 'carousel__dot';
+    dot.type = 'button';
+    dot.setAttribute('data-index', i);
+    dot.setAttribute('aria-label', `Go to ${p.title}`);
+    dotsEl.appendChild(dot);
+  });
+})();
+</script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
