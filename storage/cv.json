@@ -1,0 +1,138 @@
+{
+    "name": "Yeltsin Batiancila",
+    "role": "Full Stack Developer",
+    "stack_subtitle": "Laravel · PHP · Vue · React",
+    "photo": "96b0b0bef322291a.png",
+    "phone": "(+63) 945-3656-522",
+    "email": "yeltsinpb@gmail.com",
+    "location": "Davao, Philippines",
+    "portfolio_url": "yeltsinpb.rf.gd",
+    "summary": "Full Stack Developer with 9 years of focused experience in Laravel, PHP, and database engineering. I build scalable RESTful APIs and complex multi-tenant SaaS platforms, with a strong eye for performance and clean architecture. My work spans SaaS, e-commerce, SEO tooling, government systems, and quality control platforms, covering everything from backend architecture and payment integrations to polished frontends built with Vue, React, and Filament. I care about shipping code that holds up under real production load.",
+    "skill_groups": [
+        {
+            "label": "Frameworks",
+            "items": "Laravel, Filament, Apiato, Vue.js, React"
+        },
+        {
+            "label": "Languages",
+            "items": "PHP, JavaScript, HTML, CSS, jQuery, Ajax"
+        },
+        {
+            "label": "Databases",
+            "items": "MySQL, PostgreSQL"
+        },
+        {
+            "label": "DevOps",
+            "items": "Docker, AWS, Laravel Forge"
+        },
+        {
+            "label": "Tools",
+            "items": "Git, Jira, Claude (AI)"
+        },
+        {
+            "label": "Specialty",
+            "items": "Custom REST APIs, Payment Gateways, Multi-tenant SaaS, Subscription Billing"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": "Excellent"
+        },
+        {
+            "name": "Filipino",
+            "level": "Excellent"
+        }
+    ],
+    "education": [
+        {
+            "degree": "BS Information Technology",
+            "school": "STI College of Davao",
+            "year": "2015"
+        }
+    ],
+    "employment": [
+        {
+            "company": "2friends",
+            "role": "Freelance · Full Stack Developer",
+            "period": "RECENT",
+            "projects": [
+                {
+                    "title": "2friends · Encrypted Cloud Storage & Referral SaaS",
+                    "url": "https://2friends.biz",
+                    "description": "Subscription SaaS combining encrypted cloud storage (Briefcase, 1TB across 10 devices) with a 12-level cashback referral network. Built the network ledger, payout logic, GDPR-compliant flows, and country-based VAT handling."
+                }
+            ]
+        },
+        {
+            "company": "PRINTOS",
+            "role": "Freelance · Full Stack Developer",
+            "period": "2025",
+            "projects": [
+                {
+                    "title": "PRINTOS · Multi-tenant Printing Business Suite",
+                    "url": null,
+                    "description": "Multi-tenant Laravel SaaS built solo from the ground up. Handles orders, products, materials, inventory, production scheduling, and analytics for printing businesses."
+                }
+            ]
+        },
+        {
+            "company": "Creationshop LTD",
+            "role": "Laravel / PHP Developer",
+            "period": "APR 2019 — 2024",
+            "projects": [
+                {
+                    "title": "Cannabrands · Cannabis SaaS Platform",
+                    "url": "https://cannabrands.app",
+                    "description": "Wholesale and retail SaaS for the cannabis industry. Full admin CRUD, CRM, ordering, invoices, products, lab, and BOM. Implemented dual-side marketplace with cart, search, and brand presentation."
+                },
+                {
+                    "title": "SEOData.io · SEO API and Web App",
+                    "url": "https://seodata.io",
+                    "description": "Built on Apiato and Laravel. Multiple external API integrations, credit-based subscriptions, payment processing, credential management, and full frontend dashboard."
+                },
+                {
+                    "title": "KeywordTracker.net · SERP Crawler",
+                    "url": "https://keywordtracker.net",
+                    "description": "Domain ranking tracker with custom crawler service, Filament admin, subscriptions, and Stripe payments. Tracks rank history, competitors, and SERP features."
+                }
+            ]
+        },
+        {
+            "company": "Dept. of Social Welfare and Development PH",
+            "role": "Full Stack Developer",
+            "period": "JUN 2018 — APR 2019",
+            "projects": [
+                {
+                    "title": "NHTS · National Household Targeting System",
+                    "url": null,
+                    "description": "Government application assisting field staff in monitoring household targeting activities. Tracks visit logs, eligibility assessments, and case management workflows."
+                }
+            ]
+        },
+        {
+            "company": "Asia Quality Control",
+            "role": "Laravel / PHP Developer",
+            "period": "JUL 2016 — SEP 2018",
+            "projects": [
+                {
+                    "title": "Worldwide Quality Control",
+                    "url": "https://worldwidequalitycontrol.com",
+                    "description": "Audit, quality inspection, and laboratory testing booking platform. Full backend and frontend implementation including multi-site scheduling and lab sample workflows."
+                }
+            ]
+        },
+        {
+            "company": "Venus Awards",
+            "role": "Laravel / PHP Developer",
+            "period": "AUG 2014 — JUL 2016",
+            "projects": [
+                {
+                    "title": "Venus Awards · UK Business Women Awards",
+                    "url": null,
+                    "description": "End-to-end awards platform covering nominations, eligibility, applications, sponsorship, and a multi-stage judging module with weighted scoring."
+                }
+            ]
+        }
+    ]
+}
